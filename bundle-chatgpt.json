@@ -4,7 +4,7 @@
             "name": "bundle-chatgpt",
             "bundle-file": "bundle-chatgpt",
             "prefixes": {
-                "http": {
+                "chatgpt": {
                     "consumer": {
                         "class": "bundles.chatgpt.ChatGPTConsumer"
                     }
