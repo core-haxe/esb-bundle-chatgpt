@@ -1,0 +1,15 @@
+{
+    "bundles": {
+        "bundle-chatgpt": {
+            "name": "bundle-chatgpt",
+            "bundle-file": "bundle-chatgpt",
+            "prefixes": {
+                "http": {
+                    "consumer": {
+                        "class": "bundles.chatgpt.ChatGPTConsumer"
+                    }
+                }
+            }
+        }
+    }
+}
